@@ -1,5 +1,8 @@
 # Agent Team Kit
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![OpenClaw Skill](https://img.shields.io/badge/openclaw-skill-purple.svg)](https://github.com/openclaw/openclaw)
+
 **A self-sustaining process framework for AI agent teams.**
 
 Built for [OpenClaw](https://github.com/openclaw/openclaw) but adaptable to any multi-agent setup.
@@ -64,7 +67,7 @@ This kit solves that with:
 
 ```bash
 # Clone into your skills directory
-git clone https://github.com/yourname/agent-team-kit skills/agent-team-kit
+git clone https://github.com/reflectt/agent-team-kit skills/agent-team-kit
 
 # Copy templates to your workspace
 cp -r skills/agent-team-kit/templates/process ./process
@@ -166,6 +169,17 @@ Especially interested in:
 - Additional role templates
 - Metrics and observability patterns
 - Integration with other agent frameworks
+
+---
+
+## Related Kits
+
+Part of the Reflectt agent kit family:
+
+- **[agent-memory-kit](https://github.com/reflectt/agent-memory-kit)** — Structured memory patterns for persistent agent context
+- **[agent-autonomy-kit](https://github.com/reflectt/agent-autonomy-kit)** — Self-directed operation via heartbeats, cron, and proactive behavior
+
+These kits work great together — memory for continuity, autonomy for self-operation, and team for coordination.
 
 ---
 
