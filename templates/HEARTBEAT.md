@@ -65,4 +65,18 @@ You're the coordinator. The team does the work. Your job is to make sure they're
 
 ---
 
+## ❌ Anti-Patterns (Don't Do This)
+
+| Bad | Why | Fix |
+|-----|-----|-----|
+| Return HEARTBEAT_OK without checking | Loop dies silently | Actually run the checklist |
+| Do the work yourself instead of spawning | You become the bottleneck | Spawn specialists |
+| Ask "what's next?" | That's the team's job to figure out | Check backlog, spawn who's needed |
+| Wait for human direction | Defeats autonomy | Execute from Ready queue |
+| Spawn and forget | Work may stall | Monitor running agents, follow up |
+
+**The test:** If YOU are doing the work instead of coordinating agents, you're in Task Dispatcher mode. Stop. Spawn. Coordinate.
+
+---
+
 *Idle team = broken autonomy. Fix it.*
