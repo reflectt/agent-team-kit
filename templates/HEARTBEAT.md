@@ -9,7 +9,13 @@ Heartbeat = keep the team running. NOT "check and chill." Spawn agents, keep wor
 - [ ] Human messages waiting? → Handle immediately
 - [ ] Direct request? → Respond or delegate
 
-### 2. Run the Intake Loop
+### 2. Check Task Queue (`tasks/QUEUE.md`)
+
+- [ ] Any Critical/High priority tasks in Ready?
+- [ ] If yes → spawn agent for top task (queue takes priority over discovery loop)
+- [ ] Queue tasks = explicit work. Loop tasks = generative work. Explicit > generative.
+
+### 4. Run the Intake Loop (if queue empty)
 
 **Discovery:** Is Scout finding opportunities?
 - Check `process/OPPORTUNITIES.md` last modified
@@ -23,18 +29,18 @@ Heartbeat = keep the team running. NOT "check and chill." Spawn agents, keep wor
 - Check `process/BACKLOG.md` Ready section
 - If tasks sitting >2 hours → spawn appropriate agent (Link for dev, Pixel for design, etc.)
 
-### 3. Health Checks
+### 5. Health Checks
 
 - [ ] Any blockers that need escalation?
 - [ ] Any agents stuck or erroring?
 - [ ] Status files reflect reality?
 
-### 4. Keep State Updated
+### 6. Keep State Updated
 
 - [ ] `process/STATUS.md` — accurate?
 - [ ] `process/BACKLOG.md` — queue healthy (5-15 items in Ready)?
 
-### 5. Log Activity
+### 7. Log Activity
 
 - [ ] Update `memory/YYYY-MM-DD.md` with what happened
 
